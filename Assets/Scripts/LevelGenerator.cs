@@ -58,45 +58,45 @@ public class LevelGenerator : MonoBehaviour
                         break;
                     case 1:
                         Instantiate(objects[0], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[0], new Vector3(x + 14, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[0], new Vector3(x, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[0], new Vector3(x + 14, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[0], new Vector3(-x + 28, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[0], new Vector3(x, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[0], new Vector3(-x + 28, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
                         break;
                     case 2:
                         Instantiate(objects[1], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[1], new Vector3(x + 14, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[1], new Vector3(x, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[1], new Vector3(x + 14, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[1], new Vector3(-x + 28, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[1], new Vector3(x, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[1], new Vector3(-x + 28, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
                         break;
                     case 3:
                         Instantiate(objects[2], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[2], new Vector3(x + 14, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[2], new Vector3(x, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[2], new Vector3(x + 14, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[2], new Vector3(-x + 28, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[2], new Vector3(x, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[2], new Vector3(-x + 28, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
                         break;
                     case 4:
                         Instantiate(objects[3], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[3], new Vector3(x + 14, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[3], new Vector3(x, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[3], new Vector3(x + 14, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[3], new Vector3(-x + 28, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[3], new Vector3(x, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[3], new Vector3(-x + 28, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
                         break;
                     case 5:
                         Instantiate(objects[4], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[4], new Vector3(x + 14, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[4], new Vector3(x, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[4], new Vector3(x + 14, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[4], new Vector3(-x + 28, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[4], new Vector3(x, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[4], new Vector3(-x + 28, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
                         break;
                     case 6:
                         Instantiate(objects[5], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[5], new Vector3(x + 14, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[5], new Vector3(x, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[5], new Vector3(x + 14, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[5], new Vector3(-x + 28, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[5], new Vector3(x, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[5], new Vector3(-x + 28, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
                         break;
                     case 7:
                         Instantiate(objects[6], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[6], new Vector3(x + 14, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[6], new Vector3(x, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[6], new Vector3(x + 14, -y - 15), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[6], new Vector3(-x + 28, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[6], new Vector3(x, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[6], new Vector3(-x + 28, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
                         break;
                 }
             }

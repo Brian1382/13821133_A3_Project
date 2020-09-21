@@ -25,13 +25,31 @@ public class LevelGenerator : MonoBehaviour
             {2,2,2,2,2,1,5,3,3,0,4,0,0,0},
             {0,0,0,0,0,0,5,0,0,0,4,0,0,0},
         };
+    int[,] rotation =
+    {
+        {90,90,90,90,90,90,90,90,90,90,90,90,90,0},
+        {0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+        {0,0,270,90,90,180,0,270,90,90,90,180,0,0},
+        {0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,90,90,90,0,0,90,90,90,90,0,0},
+        {0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+        {0,0,270,90,90,180,0,270,180,0,270,90,90,90},
+        {0,0,0,90,90,90,0,0,0,0,0,90,90,180},
+        {0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+        {180,90,90,90,90,0,0,0,0,90,90,180,0,0},
+        {0,0,0,0,0,0,0,0,270,90,90,90,0,0},
+        {0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0,270,90,90,0},
+        {90,90,90,90,90,270,0,0,90,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0,0,0,0,0}
 
+    };
     // Start is called before the first frame update
     void Start()
     {
-        for (int y = 0; y < levelMap.GetLength(0) - 1; y++)
+        for (int y = 0; y < levelMap.GetLength(0); y++)
         {
-            for (int x = 0; x < levelMap.GetLength(1) - 1; x++)
+            for (int x = 0; x < levelMap.GetLength(1); x++)
             {
                 int level = levelMap[y, x];
                 switch (level)
@@ -39,25 +57,34 @@ public class LevelGenerator : MonoBehaviour
                     case 0:
                         break;
                     case 1:
-                        Instantiate(objects[0], new Vector3(x, -y), Quaternion.identity);
+                        Instantiate(objects[0], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                       
                         break;
                     case 2:
-                        Instantiate(objects[1], new Vector3(x, -y), Quaternion.identity);
+                        Instantiate(objects[1], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                     
                         break;
                     case 3:
-                        Instantiate(objects[2], new Vector3(x, -y), Quaternion.identity);
+                        Instantiate(objects[2], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                       
                         break;
                     case 4:
-                        Instantiate(objects[3], new Vector3(x, -y), Quaternion.identity);
+                        Instantiate(objects[3], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                     
                         break;
                     case 5:
-                        Instantiate(objects[4], new Vector3(x, -y), Quaternion.identity);
+                        Instantiate(objects[4], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                     
                         break;
                     case 6:
-                        Instantiate(objects[5], new Vector3(x, -y), Quaternion.identity);
+                        Instantiate(objects[5], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                      
+                       
                         break;
                     case 7:
-                        Instantiate(objects[6], new Vector3(x, -y), Quaternion.identity);
+                        Instantiate(objects[6], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                       
+    
                         break;
                 }
             }

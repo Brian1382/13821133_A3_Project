@@ -1,19 +1,37 @@
 fileFormatVersion: 2
-guid: 7cec18ef2ca9f4147be79526c921f8f2
+guid: fd1fb20d2a9d8264e8ca1b302e498733
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2132956935838155565
-    second: border_0
+      213: -7881816737321390556
+    second: BorderImproved_0
   - first:
-      213: -8322401864617249395
-    second: border_1
+      213: -5270464822913434407
+    second: BorderImproved_1
   - first:
-      213: -7862449231217127050
-    second: border_2
+      213: -9128188326286362078
+    second: BorderImproved_2
   - first:
-      213: 3361277931571337585
-    second: border_3
+      213: -6634382068483956090
+    second: BorderImproved_3
+  - first:
+      213: -996449784216982413
+    second: BorderImproved_4
+  - first:
+      213: -5267634783054764839
+    second: BorderImproved_0
+  - first:
+      213: -43887610836780583
+    second: BorderImproved_1
+  - first:
+      213: -899211082617377878
+    second: BorderImproved_2
+  - first:
+      213: 7303097293523382188
+    second: BorderImproved_3
+  - first:
+      213: 5156087359376211616
+    second: BorderImproved_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -43,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -75,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -87,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -99,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,7 +129,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,13 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: border_0
+      name: BorderImproved_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 90
-        width: 14
-        height: 14
+        x: 28
+        y: 156
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dc392eb7f63662e0800000000000000
-      internalID: -2132956935838155565
+      spriteID: 9d4678de21a95e6b0800000000000000
+      internalID: -5267634783054764839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: border_1
+      name: BorderImproved_1
       rect:
         serializedVersion: 2
-        x: 88
-        y: 90
-        width: 14
-        height: 14
+        x: 92
+        y: 156
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d85b07d1993e08c80800000000000000
-      internalID: -8322401864617249395
+      spriteID: 9d978025374146ff0800000000000000
+      internalID: -43887610836780583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: border_2
+      name: BorderImproved_2
       rect:
         serializedVersion: 2
-        x: 24
-        y: 26
-        width: 14
-        height: 14
+        x: 28
+        y: 92
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67192ccc418f2e290800000000000000
-      internalID: -7862449231217127050
+      spriteID: aab2f7ad84c5583f0800000000000000
+      internalID: -899211082617377878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: border_3
+      name: BorderImproved_3
       rect:
         serializedVersion: 2
-        x: 88
-        y: 26
-        width: 14
-        height: 14
+        x: 92
+        y: 92
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,8 +217,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1795bae4878a5ae20800000000000000
-      internalID: 3361277931571337585
+      spriteID: cafe3948b40d95560800000000000000
+      internalID: 7303097293523382188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BorderImproved_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae308e922a1e8740800000000000000
+      internalID: 5156087359376211616
       vertices: []
       indices: 
       edges: []

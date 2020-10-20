@@ -58,7 +58,7 @@ public class LevelGenerator : MonoBehaviour
                         break;
                     case 1:
                         Instantiate(objects[0], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[0], new Vector3(-x + 28, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[0], new Vector3(-x + 28, -y), Quaternion.Euler(0, 0, rotation[y, x] + 270));
                         Instantiate(objects[0], new Vector3(x, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
                         Instantiate(objects[0], new Vector3(-x + 28, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
                         break;
@@ -70,7 +70,7 @@ public class LevelGenerator : MonoBehaviour
                         break;
                     case 3:
                         Instantiate(objects[2], new Vector3(x, -y), Quaternion.Euler(0, 0, rotation[y, x]));
-                        Instantiate(objects[2], new Vector3(-x + 28, -y), Quaternion.Euler(0, 0, rotation[y, x]));
+                        Instantiate(objects[2], new Vector3(-x + 28, -y), Quaternion.Euler(0, 0, rotation[y, x]-270));
                         Instantiate(objects[2], new Vector3(x, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
                         Instantiate(objects[2], new Vector3(-x + 28, y - 30), Quaternion.Euler(0, 0, rotation[y, x]));
                         break;

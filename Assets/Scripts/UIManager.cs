@@ -10,4 +10,10 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene("MainScene");
         DontDestroyOnLoad(this);
     }
+
+    public void CloseGame()
+    {
+        SceneManager.LoadScene("StartScene");
+        DontDestroyOnLoad(this);
+    }
 }
